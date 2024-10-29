@@ -25,7 +25,6 @@ public class Stack_Queue {
         s.addFirst(20);
         s.addFirst(30);
 
-        Iterator it = s.iterator();
         while (!s.isEmpty()) {
             System.out.print(s.pollFirst() + " ");
         }
@@ -36,7 +35,6 @@ public class Stack_Queue {
         s2.addFirst(20);
         s2.addFirst(30);
 
-        it = s2.iterator();
         while (!s2.isEmpty()) {
             System.out.print(s2.pollFirst() + " ");
         }
@@ -49,7 +47,6 @@ public class Stack_Queue {
         s.addLast(20);
         s.addLast(30);
 
-        Iterator it = s.iterator();
         while (!s.isEmpty()) {
             System.out.print(s.pollFirst() + " ");
         }
@@ -60,7 +57,6 @@ public class Stack_Queue {
         s2.addLast(20);
         s2.addLast(30);
 
-        it = s2.iterator();
         while (!s2.isEmpty()) {
             System.out.print(s2.pollFirst() + " ");
         }
